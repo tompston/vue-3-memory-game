@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Card Game</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+  <style>
+    html {
+      scroll-behavior: smooth;
+      height: 100%;
+      -webkit-text-size-adjust: 100%;
+      overflow-y: scroll; /* make the scrollbar not take up the total space of the page */
+      cursor: context-menu;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: 'Helvetica', Arial, sans-serif;
+    }
+
+    ::selection {
+      color: white;
+      background-color: rgb(126, 167, 243);
+    }
+  </style>
+</html>

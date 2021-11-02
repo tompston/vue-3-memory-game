@@ -1,0 +1,11 @@
+<script setup>
+// component imports
+import Header from './Header.vue'
+// import Footer from './Footer.vue'
+</script>
+
+<template>
+  <Header />
+  <router-view />
+  <!-- <Footer /> -->
+</template>

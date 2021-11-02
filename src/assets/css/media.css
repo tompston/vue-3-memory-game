@@ -1,0 +1,5 @@
+@media screen and (max-width: 800px) {
+  .card_grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
