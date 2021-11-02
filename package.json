@@ -6,9 +6,9 @@
     "build": "vite build",
     "serve": "vite preview",
     "postbuild": "purgecss --css dist/assets/*.css --content dist/assets/index.html dist/assets/*.js -o dist/assets/"
-
   },
   "dependencies": {
+    "purgecss": "^4.0.3",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12"
   },
